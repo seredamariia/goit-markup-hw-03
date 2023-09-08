@@ -85,9 +85,6 @@ h3 {
 
 .header {
   border-bottom: 1px solid var(--accent);
-}
-
-.header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -97,13 +94,9 @@ h3 {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  gap: 40px;
 }
 
 .header-logo {
-  display: flex;
-  align-items: center;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -111,6 +104,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  margin-right: 76px
 }
 
 .header-accent {
@@ -120,8 +114,6 @@ h3 {
 .header-list {
   display: flex;
   gap: 40px;
-  flex-grow: 1;
-  justify-content: center;
 }
 
 .header-menu {
