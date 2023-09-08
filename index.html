@@ -9,7 +9,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    Expand All @@ -22,129 +17,142 @@ rel="stylesheet">
+    rel="stylesheet">
+
   <link href="./css/styles.css" rel="stylesheet" />
   <title>Web Studio</title>
 </head>
@@ -17,26 +18,28 @@
 <body>
   <header class="header">
     <div class="container">
-      <nav>
-        <a class="header-logo" href="./index.html">Web<span class="header-accent">Studio</span></a>
-        <ul>
-          <li>
-            <a class="header-menu" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="header-menu" href="">Portfolio</a>
-          </li>
-          <li>
-            <a class="header-menu" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul>
-          <li><a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="address-contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-        </ul>
-      </address>
+      <div class="header-inner">
+        <nav class="header-nav">
+          <a class="header-logo" href="./index.html">Web<span class="header-accent">Studio</span></a>
+          <ul class="header-list">
+            <li>
+              <a class="header-menu" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="header-menu" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="header-menu" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list">
+            <li><a class="address-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="address-contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          </ul>
+        </address>
+      </div>
     </div>
   </header>
 
@@ -51,7 +54,7 @@
     <section class="principles">
       <div class="container">
         <h2 class="visually-hidden">Core Principles</h2>
-        <ul>
+        <ul class="principles-list">
           <li>
             <h3 class="principles-subtitle">Strategy</h3>
             <p class="principles-text">Our goal is to identify the business problem to walk away with the perfect and
@@ -80,26 +83,34 @@
     <section class="team">
       <div class="container">
         <h2 class="team-title">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li class="team-member">
-            <img src="./images/our-team/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
-            <h3 class="team-subtitle">Mark Guerrero</h3>
-            <p class="team-text">Product Designer</p>
+            <div class="member">
+              <img src="./images/our-team/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
+              <h3 class="team-subtitle">Mark Guerrero</h3>
+              <p class="team-text">Product Designer</p>
+            </div>
           </li>
           <li class="team-member">
-            <img src="./images/our-team/tom-ford.jpg" alt="Tom Ford" width="264" height="260">
-            <h3 class="team-subtitle">Tom Ford</h3>
-            <p class="team-text">Frontend Developer</p>
+            <div class="member">
+              <img src="./images/our-team/tom-ford.jpg" alt="Tom Ford" width="264" height="260">
+              <h3 class="team-subtitle">Tom Ford</h3>
+              <p class="team-text">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-member">
-            <img src="./images/our-team/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260">
-            <h3 class="team-subtitle">Camila Garcia</h3>
-            <p class="team-text">Marketing</p>
+            <div class="member">
+              <img src="./images/our-team/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260">
+              <h3 class="team-subtitle">Camila Garcia</h3>
+              <p class="team-text">Marketing</p>
+            </div>
           </li>
           <li class="team-member">
-            <img src="./images/our-team/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260">
-            <h3 class="team-subtitle">Daniel Wilson</h3>
-            <p class="team-text">UI Designer</p>
+            <div class="member">
+              <img src="./images/our-team/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260">
+              <h3 class="team-subtitle">Daniel Wilson</h3>
+              <p class="team-text">UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -108,37 +119,61 @@
     <section class="portfolio">
       <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="./images/our-portfolio/banking-app.jpg" alt="Banking App" width="360" height="300">
-            <h3 class="portfolio-subtitle">Banking App</h3>
-            <p class="portfolio-text">App</p>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/banking-app.jpg" alt="Banking App" width="360" height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Banking App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="./images/our-portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
-            <h3 class="portfolio-subtitle">Cashless Payment</h3>
-            <p class="portfolio-text">Marketing</p>
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="./images/our-portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300">
-            <h3 class="portfolio-subtitle">Meditation App</h3>
-            <p class="portfolio-text">App</p>
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/meditation-app.jpg" alt="Meditation App" width="360" height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Meditation App</h3>
+                <p class="portfolio-text">App</p>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="./images/our-portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
-            <h3 class="portfolio-subtitle">Taxi Service</h3>
-            <p class="portfolio-text">Marketing</p>
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/taxi-service.jpg" alt="Taxi Service" width="360" height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Taxi Service</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="./images/our-portfolio/screen-illustrations.jpg" alt="Screen Illustrations" width="360"
-              height="300">
-            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-            <p class="portfolio-text">Design</p>
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/screen-illustrations.jpg" alt="Screen Illustrations" width="360"
+                height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-text">Design</p>
+              </div>
+            </div>
           </li>
-          <li>
-            <img src="./images/our-portfolio/online-courses.jpg" alt="Online Courses" width="360" height="300">
-            <h3 class="portfolio-subtitle">Online Courses</h3>
-            <p class="portfolio-text">Marketing</p>
+          <li class="portfolio-item">
+            <div class="portfolio-card">
+              <img src="./images/our-portfolio/online-courses.jpg" alt="Online Courses" width="360" height="300">
+              <div class="card-text">
+                <h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-text">Marketing</p>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
