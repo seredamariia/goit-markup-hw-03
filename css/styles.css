@@ -61,7 +61,6 @@ img {
   margin-right: auto;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -93,6 +92,10 @@ h3 {
   color: var(--primary-brand);
 }
 
+.header-accent {
+  color: var(--dark);
+}
+
 .header-menu {
   color: var(--dark);
   line-height: 1.5;
@@ -115,14 +118,6 @@ h3 {
 .address-contacts:hover,
 .address-contacts:focus {
   color: var(--pressed-state);
-}
-
-.header-contacts {
-  font-style: normal;
-}
-
-.header-accent {
-  color: var(--dark);
 }
 
 .hero {
@@ -220,15 +215,14 @@ h3 {
   color: var(--primary-brand);
 }
 
+.footer-accent {
+  color: var(--light);
+}
+
 .footer-text {
   color: var(--light);
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 16px;
   max-width: 264px;
-}
-
-.footer-accent {
-  color: var(--light);
-  background-color: var(--dark);
 }
