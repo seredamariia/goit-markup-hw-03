@@ -206,6 +206,10 @@ h3 {
   gap: 24px;
 }
 
+.principles-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .principles-subtitle {
   margin-bottom: 8px;
 }
