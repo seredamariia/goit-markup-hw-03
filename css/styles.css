@@ -289,6 +289,8 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-accent {
