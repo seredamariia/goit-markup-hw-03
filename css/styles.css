@@ -111,6 +111,7 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  margin-right: 76px;
 }
 
 .header-accent {
